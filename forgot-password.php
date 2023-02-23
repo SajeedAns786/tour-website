@@ -135,8 +135,6 @@ $error="Email id or Mobile no is invalid";
                         <button type="submit" name="submit50" class="btn-primary btn">Change</button>
                     </p>
                 </form>
-
-
             </div>
         </div>
         <!--- /privacy ---->
@@ -151,6 +149,7 @@ $error="Email id or Mobile no is invalid";
         <!-- //signin -->
         <!-- write us -->
         <?php include('includes/write-us.php');?>
+
 </body>
 
 </html>

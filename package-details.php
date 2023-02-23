@@ -121,8 +121,8 @@ foreach($results as $result)
                     </div>
                     <div class="col-md-8 selectroom_right wow fadeInRight animated" data-wow-delay=".5s">
                         <h2><?php echo htmlentities($result->PackageName);?></h2>
-                        <p class="dow">#PKG-<?php echo htmlentities($result->PackageId);?></p>
-                        <p><b>Package Type :</b> <?php echo htmlentities($result->PackageType);?></p>
+                        <!-- <p class="dow">#PKG-<?php //echo htmlentities($result->PackageId);?></p> -->
+                        <!-- <p><b>Package Type :</b> <?php echo htmlentities($result->PackageType);?></p> -->
                         <p><b>Package Location :</b> <?php echo htmlentities($result->PackageLocation);?></p>
                         <p><b>Features</b> <?php echo htmlentities($result->PackageFetures);?></p>
                         <div class="ban-bottom">
